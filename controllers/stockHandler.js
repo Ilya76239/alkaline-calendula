@@ -33,7 +33,7 @@ function StockHandler() {
       .count({ stock: stock })
       .then(result => result)
       .catch(err => console.log(err));
-    db.close;
+    db.close();
     return count;
   };
 }
